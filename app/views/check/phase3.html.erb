@@ -12,7 +12,6 @@
             <th>Applicant Type</th>
             <th>Show</th>
             <th>approve</th>
-            <th>disapprove</th>
           </tr>
 </thead>
 <tbody>
@@ -26,8 +25,7 @@
        <td ><%= @user_profile.department %></td>
        <td><%= @user_profile.applicant_type%></td>
        <td ><%= link_to "Show", show_user_path(phase.id), method: :get,class:"btn btn-primary btn-sm" %></td>
-        <td> <button type="button" class="btn btn-warning btn-md" data-toggle="modal" style="margin:10px;"  onclick="sticker_allotment(<%=phase.id%>);" data-disable-with="Validating ...">Aproove</button></td>
-         <td><button type="button" class="btn btn-warning btn-md" data-toggle="modal" style="margin:10px;"  onclick="remark(<%= phase.id%>);" data-disable-with="Validating ...">Disapprove</button></td>
+      <td><button type="button" class="btn btn-warning btn-md" data-toggle="modal" style="margin:10px;"  onclick="remark(<%= phase.id%>);" data-disable-with="Validating ...">Disapprove</button></td>
    
   </tr>
     <% end %>

@@ -155,6 +155,6 @@ class PstaffsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pstaff_params
-      params.require(:pstaff).permit(:name, :gender, :unique_id, :vichel_no, :vichel_model, :vehical_type, :mobile_no, :department, :address, :registration_certificate, :aadhaar_card, :type_applicant, :RC_holder_name, :relationship)
+      params.require(:pstaff).permit(:vichel_no, :vichel_model, :vehical_type,:registration_certificate, :aadhaar_card, :RC_holder_name, :relationship)
     end
 end

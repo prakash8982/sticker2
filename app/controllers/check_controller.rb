@@ -39,19 +39,19 @@ class CheckController < ApplicationController
                 x=Pstaff.find(@remark.id)
                 x.phase1=true
                 x.phase1_remark=pstaff_params[:phase1_remark]
-                
+
 
                 @user = User.all
                 for i in @user do
                   if(i.role == x.department)
                     @id = i
-                    break 
+                    break
                   end
                 end
                 x.save
 
                 NotifyMailer.with(user: @id).recive_email.deliver
-        
+
 
                 #@p = User.find(z)
                 # NotificationMailer.with(user:@p).approve_email.deliver
@@ -65,24 +65,22 @@ class CheckController < ApplicationController
                 for i in @user do
                   if(i.phase3 == true)
                     @id = i
-                    break 
+                    break
                   end
                 end
                 user.save
                 NotifyMailer.with(user: @id).recive_email.deliver
-                
+
                 flash[:notice] = "approved succesfully!"
                 redirect_to check_phase2_path
-    
+
             elsif current_user.phase3 == true
                 @user=Pstaff.find(@remark.id)
-                @user.disapprove=true
-                @user.phase3_remark=pstaff_params[:phase3_remark]
-                z = @user.user_id
-                @p = User.find(z)
+                @user.phase3=true
+                @user.sticker=pstaff_params[:sticker]
                 @user.save
-                NotificationMailer.with(user:@p).disapprove_email.deliver
-                flash[:notice] = "disapproved succesfully!"
+                #NotificationMailer.with(user:@p).disapprove_email.deliver
+                flash[:notice] = "approved succesfully!"
                 redirect_to check_phase3_path()
             else
         end
@@ -91,25 +89,6 @@ class CheckController < ApplicationController
         end
     end
 
-
-    def sticker
-         #@user =current_user
-         @sticker=Pstaff.find(params[:id])
-        # @user_profile = UserProfile(@sticker.user_profile_id)
-
-
-         if current_user.phase3 == true
-             @user=Pstaff.find(@sticker.id)
-             @user.phase3=true
-             @user.sticker=pstaff_params[:sticker]
-             @user.save
-             # z = @user.user_id
-             # @p = User.find(z)
-             # NotificationMailer.with(user:@p).approve_email.deliver
-             flash[:notice] = "approved succesfully!"
-             redirect_to check_phase3_path
-         end
-    end
 
 
    def show_user_form
@@ -144,18 +123,6 @@ class CheckController < ApplicationController
         redirect_to check_phase3_path()
     else
     end
-    end
-
-
-    def search
-
-    if params[:search].blank?  
-    redirect_to(check_phase3_path, alert: "Empty field!") and return  
-    else  
-    @parameter = params[:search]
-    @result= Pstaff.all.where(:vichel_no => @parameter)
-    
-    end  
     end
 
     def disapprove
@@ -202,6 +169,17 @@ class CheckController < ApplicationController
     end
 
 
-
+  # def sticker
+  #      @sticker=Pstaff.find(params[:id])
+  #      if params[:commit]=='Submit'
+  #
+  #      if current_user.phase3 == true
+  #        @user=Pstaff.find(@sticker.id)
+  #        @user.phase3=true
+  #        @user.sticker=pstaff_params[:sticker]
+  #        @user.save
+  #      end
+  #      end
+  # end
 
 end

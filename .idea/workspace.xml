@@ -2,14 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26c5eb4-4f5f-4b84-b010-a9a265ca4969" name="Default Changelist" comment="database modified">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/check_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/check_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/pstaffs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pstaffs_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/check/_remark_modal.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/check/_remark_modal.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/check/_sticker_modal.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/check/_sticker_modal.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/check/phase1.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/check/phase1.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/check/phase2.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/check/phase2.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/check/phase3.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/check/phase3.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/check/search.html.erb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/check/show_user_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/check/show_user_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/check/sticker.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/check/sticker.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/_form1.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/_others_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/_vender_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/others_new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/phdstaff_new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pstaffs/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/showuser.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pstaffs/tstaff_new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user_profiles/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_profiles/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190509152701_create_phase1s.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190514093625_create_phases.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190702135313_remove_role_from_user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190702135346_remove_phase1_from_user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190702135355_remove_phase2_from_user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190702135406_remove_phase3_from_user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190702135742_remove_admin_from_user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/pstaffs/registration_certificates/000/000/003/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/pstaffs/registration_certificates/000/000/004/original/Allotment_Letter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/pstaffs/registration_certificates/000/000/005/original/shanu.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/003/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/004/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/005/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/006/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/007/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/008/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/009/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/010/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/011/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/012/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/013/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/014/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/id_proofs/000/000/015/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/003/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/004/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/005/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/006/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/007/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/008/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/009/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/010/original/shanu.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/011/original/shanu.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/012/original/shanu.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/013/original/shanu.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/014/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/user_profiles/photos/000/000/015/original/174CA047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -46,17 +97,52 @@
         <item name="project2@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="project2@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="project2: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pstaffs_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2826">
+              <caret line="157" column="119" selection-start-line="157" selection-start-column="119" selection-end-line="157" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pstaffs/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/check/show_user_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/user_profiles_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pstaffs/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,66 +153,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/check/phase1.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-576">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/check_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/check/phase2.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/check/show_user_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="52" column="53" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/check/phase3.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="468">
+              <caret line="26" column="109" selection-start-line="26" selection-start-column="109" selection-end-line="26" selection-end-column="109" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/views/check/sticker.js.erb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;375e1811-02de-4d6e-97d2-2ba9bd2d275e&gt;/app/views/layouts/_menu.html.erb" />
         <option value="&lt;375e1811-02de-4d6e-97d2-2ba9bd2d275e&gt;/config/environments/development.rb" />
         <option value="&lt;375e1811-02de-4d6e-97d2-2ba9bd2d275e&gt;/config/environments/production.rb" />
         <option value="&lt;375e1811-02de-4d6e-97d2-2ba9bd2d275e&gt;/Gemfile" />
@@ -182,21 +218,22 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pstaffs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pstaffs/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/user_profiles_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user_profile.rb" />
         <option value="$PROJECT_DIR$/app/models/pstaff.rb" />
-        <option value="$PROJECT_DIR$/app/views/pstaffs/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pstaffs/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/pstaffs_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/user_profiles/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/check/show_user_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/check/_remark_modal.html.erb" />
         <option value="$PROJECT_DIR$/app/views/check/phase1.html.erb" />
         <option value="$PROJECT_DIR$/app/views/check/phase2.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/check/phase3.html.erb" />
         <option value="$PROJECT_DIR$/app/views/check/sticker.js.erb" />
         <option value="$PROJECT_DIR$/app/views/check/_sticker_modal.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/check/_remark_modal.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/check_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/check/phase3.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/pstaffs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/user_profiles_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_profiles/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pstaffs/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/check/show_user_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -229,55 +266,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="stickers1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stickers1" type="462c0819:PsiDirectoryNode" />
+              <item name="sticker2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticker2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="stickers1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stickers1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stickers1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stickers1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stickers1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stickers1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="check" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stickers1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stickers1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stickers1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stickers1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user_profiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stickers1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stickers1" type="462c0819:PsiDirectoryNode" />
+              <item name="sticker2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticker2" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sticker2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticker2" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sticker2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticker2" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -448,7 +464,8 @@
       <workItem from="1562002173697" duration="13685000" />
       <workItem from="1562054134906" duration="6975000" />
       <workItem from="1562061112283" duration="37167000" />
-      <workItem from="1562128860855" duration="13152000" />
+      <workItem from="1562128860855" duration="17384000" />
+      <workItem from="1562146757597" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="database modified">
       <created>1562130791055</created>
@@ -461,13 +478,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97973000" />
+    <option name="totallyTimeSpent" value="102822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.2905478" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.5064447" />
       <window_info id="Structure" order="1" sideWeight="0.5011111" side_tool="true" weight="0.2508056" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" />
@@ -490,30 +506,6 @@
       <window_info anchor="right" id="Database" order="3" weight="0.20515575" />
       <window_info anchor="right" id="Remote Host" order="4" weight="0.3168636" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.2905478" />
-      <window_info id="Structure" order="1" sideWeight="0.5011111" side_tool="true" weight="0.2508056" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946293" weight="0.22888888" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053704" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="13" show_stripe_button="false" weight="0.29333332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.20515575" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.3168636" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -523,12 +515,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="database modified" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/173970bf-7b4a-4043-9e33-cd8a35f24f5c/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190702171526_remove_columns_from_pstaffs.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -546,13 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/tstaff_new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/tstaff_new.html.erb" />
     <entry file="file://$PROJECT_DIR$/app/views/user_profiles/others.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -588,13 +568,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/_form1.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="19" column="88" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/_form1.html.erb" />
     <entry file="file://$PROJECT_DIR$/app/views/user_profiles/_temporary_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -696,13 +670,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/pstaffs/new.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user_profiles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user_profile.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -710,72 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://173970bf-7b4a-4043-9e33-cd8a35f24f5c/schema/project2/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8bbf0b22-86f9-48da-b4f5-d2e8365413fd">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://173970bf-7b4a-4043-9e33-cd8a35f24f5c/schema/project2/table/pstaffs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8bbf0b22-86f9-48da-b4f5-d2e8365413fd">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://173970bf-7b4a-4043-9e33-cd8a35f24f5c/schema/project2/table/user_profiles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8bbf0b22-86f9-48da-b4f5-d2e8365413fd">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pstaffs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pstaffs/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_profiles/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2196">
-          <caret line="122" column="77" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/check/_remark_modal.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -793,52 +698,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="727">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/check/remark.js.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/check/_sticker_modal.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="576">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/check/sticker.js.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/check/_remark_modal.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/check/phase3.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/check/show_user_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="53" />
+        <state relative-caret-position="360">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/check_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://173970bf-7b4a-4043-9e33-cd8a35f24f5c/schema/project2/table/pstaffs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c65a7b7e-2248-48a9-bc30-ee917afe9555">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://173970bf-7b4a-4043-9e33-cd8a35f24f5c/schema/project2/table/user_profiles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c65a7b7e-2248-48a9-bc30-ee917afe9555">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://173970bf-7b4a-4043-9e33-cd8a35f24f5c/schema/project2/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c65a7b7e-2248-48a9-bc30-ee917afe9555">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_profiles/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pstaffs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2826">
+          <caret line="157" column="119" selection-start-line="157" selection-start-column="119" selection-end-line="157" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user_profiles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pstaffs/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/check/phase3.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="109" selection-start-line="26" selection-start-column="109" selection-end-line="26" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/check/sticker.js.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/check/show_user_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>

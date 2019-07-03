@@ -1,0 +1,145 @@
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        
+  <% if current_user %>
+   <% if current_user.phase1 == true %>
+   <li class="nav-item active">
+
+      <a ><b><%= link_to "Home",check_phase1_path,class:"nav-link", style:"font-size:22px;color: white";%></b></a>
+   </li>
+   <a ><b><%=  link_to "About",home_about_path ,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+      </li>
+      <li class="nav-item">
+      <a ><b><%= link_to "Contact us",home_contact_path,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+
+
+   <% elsif current_user.phase2 == true %>
+   <li>
+   <a ><b><%= link_to "Home",check_phase2_path, class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a></li>
+   <a ><b><%=  link_to "About",home_about_path ,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+      </li>
+      <li class="nav-item">
+      <a ><b><%= link_to "Contact us",home_contact_path,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+
+
+   <% elsif current_user.phase3 == true %>
+   <li><a ><b><%= link_to "Home",check_phase3_path, class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a></li>
+   <a ><b><%=  link_to "About",home_about_path ,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+      </li>
+      <li class="nav-item">
+      <a ><b><%= link_to "Contact us",home_contact_path,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+
+   <% else %>
+    <% @user_profile = current_user.user_profiles %>
+      <% if @user_profile.ids.count == 0 %>
+      <li><a ><b><%= link_to "Home",home_index_path, class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a></li>
+      <a ><b><%=  link_to "About",home_about_path ,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+      </li>
+      <li class="nav-item">
+      <a ><b><%= link_to "Contact us",home_contact_path,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+
+      <% else  %>
+  <li> <a ><b><%= link_to "Home",pstaffs_path, class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a></li>
+  <a ><b><%=  link_to "About",home_about_path ,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+      </li>
+      <li class="nav-item">
+      <a ><b><%= link_to "Contact us",home_contact_path,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+
+
+     <% end %>
+     <% end %>
+   
+   
+  </div>    
+  
+  <% else %>
+
+   <li><a ><b><%= link_to "Home",root_path, class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a></li>
+   <li>
+    <a ><b><%=  link_to "About",home_about_path ,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+      </li>
+      <li class="nav-item">
+      <a ><b><%= link_to "Contact us",home_contact_path,class:"navbar-brand text-left",style:"font-size:22px;color: white;" %></b></a>
+
+  <%end %>
+  </ul>
+  </div>
+   <% if current_user %>
+      <div class="mx-auto order-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <li><a ><%= link_to "signout" , destroy_user_session_path ,method:  :delete,class:"btn btn-success ml-auto mr-1 btn-md" %></a></li>
+  <li> <a> <%= link_to 'change password' , edit_user_registration_path,class:"btn btn-success ml-auto mr-1 btn-md"  %></a></li>
+  </li>
+  </ul>
+  </div>
+  
+<% else %>
+  <div class="mx-auto order-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <li> <a ><%= link_to "Sign up",new_user_registration_path, class:"btn btn-success ml-auto mr-1 btn-md" %></a></li>
+      <li><a ><%= link_to "Sign in",new_user_session_path, class:"btn btn-success ml-auto mr-1 btn-md" %></a></li>
+    </li>
+    </ul>
+  </div>
+  <%end%>
+</nav>
+
+
+<!-- 
+<a class="navbar-brand" ><%= link_to "Sign up",new_user_registration_path, style:"font-size:18px;color: white;" %></a>
+
+  <a class="navbar-brand" ><%= link_to "Sign in",new_user_session_path, style:"font-size:18px;color: white;" %></a> -->
+<!-- 
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a><%= link_to "Home",root_path,class:"nav-link", style:"font-size:22px;color: white;" %></b></a>
+
+        </li>
+        <li class="nav-item">
+          <a ><%=  link_to "About",home_about_path ,class:"nav-link" ,style:"font-size:22px;color: white;" %></b></a>
+
+        </li>
+        <li class="nav-item">
+          <a ><%= link_to "Contact us",home_contact_path,class:"nav-link" ,style:"font-size:22px;color: white;" %></b></a>
+        </li>
+
+      </ul>
+    </div>
+    <div class="mx-auto order-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <%= link_to "Sign in",new_user_session_path, class:"btn btn-danger ml-auto mr-1 btn-md" %>
+        </li>
+        <li class="nav-item">
+          <a><%= link_to "Sign up",new_user_registration_path, class:"btn btn-danger ml-auto mr-1 btn-md" %> </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+ -->
+
+

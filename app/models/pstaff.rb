@@ -1,0 +1,19 @@
+class Pstaff < ApplicationRecord
+	belongs_to :user_profile
+	# validates :name , :gender, :unique_id,:department ,:address, presence: true
+  #   validates :mobile_no,:presence => true,:numericality => true,
+  #   :length => { :minimum => 10, :maximum => 15 }
+
+    has_attached_file :registration_certificate
+    validates_attachment :registration_certificate, :content_type=>{ :content_type => %w(application/pdf application/jpg application/jpeg application/png application/msword application/vnd.openxmlformats-officedocument.wordprocessingml.document) }
+     
+    has_attached_file :aadhaar_card
+    validates_attachment :aadhaar_card,:content_type=>{ :content_type => %w(application/pdf application/jpg application/jpeg application/png application/msword application/vnd.openxmlformats-officedocument.wordprocessingml.document) }
+    
+    has_attached_file :document
+    validates_attachment :document,:content_type=>{ :content_type => %w(application/pdf application/jpg application/jpeg application/png application/msword application/vnd.openxmlformats-officedocument.wordprocessingml.document) }
+
+    VEHICAL =['2 Wheeler','3 Wheeler','4 Wheeler','6 Wheeler']
+    GENDER = ['Male','Female','Others']
+
+end

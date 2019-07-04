@@ -4,7 +4,7 @@ class UserProfilesController < ApplicationController
   # GET /user_profiles
   # GET /user_profiles.json
   def index
-    @user_profiles = UserProfile.all
+    redirect_to pstaffs_path
   end
 
   # GET /user_profiles/1

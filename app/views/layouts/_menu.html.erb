@@ -1,4 +1,16 @@
- <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+ <header>
+  
+  <div class="container h-100 ">
+    <div class="d-flex text-center h-100">
+      <div class="my-auto w-100 text-white">
+        <h1 class="display-4" id="nitkfont">National Institute of Technology, Karnataka</h1>
+        <h2 id="nitkfont1"> Security Stickers</h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
       <ul class="navbar-nav mr-auto">
         
@@ -98,48 +110,51 @@
 </nav>
 
 
-<!-- 
-<a class="navbar-brand" ><%= link_to "Sign up",new_user_registration_path, style:"font-size:18px;color: white;" %></a>
-
-  <a class="navbar-brand" ><%= link_to "Sign in",new_user_session_path, style:"font-size:18px;color: white;" %></a> -->
-<!-- 
-
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a><%= link_to "Home",root_path,class:"nav-link", style:"font-size:22px;color: white;" %></b></a>
-
-        </li>
-        <li class="nav-item">
-          <a ><%=  link_to "About",home_about_path ,class:"nav-link" ,style:"font-size:22px;color: white;" %></b></a>
-
-        </li>
-        <li class="nav-item">
-          <a ><%= link_to "Contact us",home_contact_path,class:"nav-link" ,style:"font-size:22px;color: white;" %></b></a>
-        </li>
-
-      </ul>
-    </div>
-    <div class="mx-auto order-0">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    </div>
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <%= link_to "Sign in",new_user_session_path, class:"btn btn-danger ml-auto mr-1 btn-md" %>
-        </li>
-        <li class="nav-item">
-          <a><%= link_to "Sign up",new_user_registration_path, class:"btn btn-danger ml-auto mr-1 btn-md" %> </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
 
+<style>
+  header {
+  position: relative;
+  background-color: black;
+  height: 18vh;
+  /*min-height: 20rem;*/
+  width: 100%;
+  overflow: hidden;
+}
 
- -->
 
+header .container {
+  position: relative;
+  z-index: 2;
+}
 
+@media only screen and (max-width: 1200px) {
+  #nitkfont {
+   font-size: 3em;
+  }
+  #nitkfont1 {
+   font-size: 3em;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #nitkfont {
+   font-size: 1.8em;
+  }
+  #nitkfont1 {
+   font-size: 1.8em;
+  }
+}
+/*@media only screen and (max-width: 600px) {
+  #nitkfont {
+   font-size: 4em;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #nitkfont {
+   font-size: 6em;
+  }
+}*/
+
+}
+
+</style>

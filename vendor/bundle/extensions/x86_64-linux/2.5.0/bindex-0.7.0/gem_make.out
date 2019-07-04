@@ -1,0 +1,15 @@
+current directory: /home/tushar/sticker2/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+/home/tushar/.rvm/rubies/ruby-2.5.1/bin/ruby -I /home/tushar/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190703-18107-13cog0t.rb extconf.rb
+creating Makefile
+
+current directory: /home/tushar/sticker2/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/tushar/sticker2/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.so
+
+current directory: /home/tushar/sticker2/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20190703-18107-1m8trab/skiptrace

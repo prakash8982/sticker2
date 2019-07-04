@@ -11,50 +11,65 @@
     </div>
   <% end %>
 
+  <div class="container_fluid">
+      <div class="row" >
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4">
+          <div class="shadow-lg p-3 mb-5 bg-black rounded">
+            <div class="card ">
+              <div class="card-header bg-info text-white text-center"><h2>Permanent Staff</h2></div>
+              <div class="card-body"> <div class="field" >
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+   
+    <h5><%= form.text_field :name,:required=>true, class:"label" %></h5>
   </div>
 
   <div class="field">
-    <%= form.label :unique_id %>
-    <%= form.text_field :unique_id %>
+    
+    <h5><%= form.text_field :unique_id , label: "Employee ID",:required=>true , class:"label" %></h5>
+  </div>
+
+  <div class="dropdown">
+   
+    <h5><%= form.select :gender, Pstaff::GENDER %></h5>
   </div>
 
   <div class="field">
-    <%= form.label :gender %>
-    <%= form.text_field :gender %>
+    
+    <h5><%= form.text_field :mobile_no,label:"Mobile No",:required=>true, class:"label" %></h5>
+  </div>
+
+  <div class="dropdown">
+   
+    <h5><%= form.select :department, Pstaff::TEMP ,:required=>true , class:"label" %></h5>
   </div>
 
   <div class="field">
-    <%= form.label :mobile_no %>
-    <%= form.text_field :mobile_no %>
+   
+    <h5><%= form.text_field :applicant_type %></h5>
   </div>
 
   <div class="field">
-    <%= form.label :department %>
-    <%= form.text_field :department %>
+   
+    <h5><%= form.text_field :address, :required=>true,class:"label"%></h5>
   </div>
+  <div class="file">
+    <h5><%= form.file_field :photo ,:required=>true , class:"label,ui pink button"%></h5>
+  </div>
+ 
 
-  <div class="field">
-    <%= form.label :applicant_type %>
-    <%= form.text_field :applicant_type %>
-  </div>
-
-  <div class="field">
-    <%= form.label :address %>
-    <%= form.text_field :address %>
-  </div>
-  <div>
-    <%= form.file_field :photo ,:required=>true , class:"label,ui pink button"%>
-  </div>
-
-  <div>
-    <%= form.file_field :id_proof ,:required=>true , class:"label,ui pink button"%>
+  <div class="file">
+    <h5><%= form.file_field :id_proof ,:required=>true , class:"label,ui pink button"%></h5>
   </div>
 
 
   <div class="actions">
-    <%= form.submit %>
+    <h5><%= form.submit "submit",class:"btn btn-primary" %></h5>
   </div>
+
+</div>
+</div>
+</div>
+</div>
 <% end %>

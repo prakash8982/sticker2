@@ -1,0 +1,15 @@
+current directory: /home/tushar/sticker2/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/home/tushar/.rvm/rubies/ruby-2.5.1/bin/ruby -I /home/tushar/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190703-18107-1tx42k9.rb extconf.rb
+creating Makefile
+
+current directory: /home/tushar/sticker2/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/tushar/sticker2/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/tushar/sticker2/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20190703-18107-1m0glp0

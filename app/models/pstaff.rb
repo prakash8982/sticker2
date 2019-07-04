@@ -13,6 +13,9 @@ class Pstaff < ApplicationRecord
     has_attached_file :document
     validates_attachment :document,:content_type=>{ :content_type => %w(application/pdf application/jpg application/jpeg application/png application/msword application/vnd.openxmlformats-officedocument.wordprocessingml.document) }
 
+    TEMP = ['MACS', 'Computer Science', 'Mechanical','Civil','Electronic','Mining','Library','Academic','Account','Hostel','CCC','Audit','Administrator']
+    TEMP1 = ['MACS', 'Computer Science', 'Mechanical','Civil','Electronic','Mining']
+    TEMP2 = ['HCC', 'Guest House', 'Sports','Post Office','Placement','Garden','Compretive Society']
     VEHICAL =['2 Wheeler','3 Wheeler','4 Wheeler','6 Wheeler']
     GENDER = ['Male','Female','Others']
 
